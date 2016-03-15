@@ -1,8 +1,6 @@
 .DS_Store
 node_modules/
-.sass-cache/
-*.css.map
-*.ini
+.sass-cache/*.ini
 psd/
 *.psd
 *.ai

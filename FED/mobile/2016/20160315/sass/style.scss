@@ -1,0 +1,164 @@
+@charset "uft-8";
+
+// 公共部分
+body {background-color: #d9e0e5; padding: 5%}
+.cv, .percent, .subscribe, .login, .today {border-radius: 5px; background-color: #fff;}
+.header {height: 58px; border-top-left-radius: 5px; border-top-right-radius: 5px;
+	.title {text-align: center; height: 58px; line-height: 58px; font-size: 18px;}
+}
+.mb100{margin-bottom: 100px;}
+// 公共部分 end
+
+// start of cv
+.cv {padding-bottom: 24px; border-bottom: 2px solid #e5e5e5;
+	.head {position: relative; width: 100%; height: 96px;background: #78c8e6  url(../images/cv/bg.png); background-size: 40px 30.5px; border-radius: 4px;
+		.header_img {position: absolute; left: 50%; bottom: -25%; transform:translate(-50%); width: 70px; height: 70px; display: block;}
+		img {display: block; width: 70px; height: 70px; border: 4px solid #fff; border-radius: 50%; background-color: #fff;}
+	}
+	.name {margin-top: 60px; font-size: 24px; color: #59676b; text-align: center;}
+	.works {margin-top: 8px; font-size: 12px; color: #b3b3b3; text-align: center;}
+}
+//end of cv
+
+
+// start of percent
+.percent { border-bottom: 2px solid #e5e5e5;
+	.header {background-color:#78c8e6; border-bottom: 2px solid #6eb7d2;
+		.title {font-size: 18px; color: #fff; text-align: center; line-height: 58px;}
+	}
+}
+.progress {height: 210px; text-align: center; vertical-align: middle;;
+	.progress_ring {width: 140px; margin: 40px  auto; height: 140px; background: #fff; border-top: 10px solid #7c94be; border-right: 10px solid #78c8e6; border-bottom: 10px solid #ffe349; border-left: 10px solid #ff895b; border-radius: 50%;}
+	.number {display: block; font-size: 68px; color: #59676b;}
+	.progress_text {display: block; font-size: 14px; color: #59676b;}
+}
+.list {
+	a {width: 100%; height: 33px; line-height: 33px; text-decoration: none; text-align: right;}
+	.icon {display: inline-block; width: 10px; height: 10px;}
+	.icon1 {display: block;
+		&:hover {
+			content:"";
+			width: 10px;
+			height: 10px;
+			position: absolute; 
+			top: 0;
+			left: 0;
+			background: #78c8e6;
+		}
+	}
+	.icon2 {display: block;
+		&:hover {
+			content:"";
+			width: 10px;
+			height: 10px;
+			position: absolute; 
+			top: 0;
+			left: 0;
+			background: #7c94be;;
+		}
+	}
+	.icon3 {display: block;
+		&:hover {
+			content:"";
+			width: 10px;
+			height: 10px;
+			position: absolute; 
+			top: 0;
+			left: 0;
+			background:  #ffe349;
+		}
+	.icon4 {display: block;
+		&:hover {
+			content:"";
+			width: 10px;
+			height: 10px;
+			position: absolute; 
+			top: 0;
+			left: 0;
+			background:  #ff895b;
+		}
+	}
+	.icon5 {display: block;
+		&:hover {
+			content:"";
+			width: 10px;
+			height: 10px;
+			position: absolute; 
+			top: 0;
+			left: 0;
+			background:  #7c94be;
+		}
+	}
+	.list_text {display: block; text-align: right; margin-left: 15%; margin-right: 15px; color: #b3b3b3;
+	}
+	em {float: left; font-size: 14px; color: #59676b;}
+}
+//end of percent
+
+
+// start of subscribe  and login 
+.subscribe, .login {border-bottom: 2px solid #e5e5e5; 
+	.header {background-color: #f9f9f9; border-bottom: 2px solid #f1f1f1;}
+	.title {color: #59676b;}
+	.sub {width: 80%; margin: 0 auto; display: block; padding: 18px 0 28px 0;}
+	.email, .password, .sign {display: block; width: 100%; height: 45px; line-height: 45px; font-size: 14px;  text-align: center; border-radius: 5px;}
+	input {color: #666;}
+}
+// end of subscribe  and login 
+
+
+// start of subscribe
+.subscribe {
+	.email, .password {color: #b3b3b3; border-top: 2px solid #e5e5e5; background: #f4f4f4;}
+	.email {margin-bottom: 13px;}
+	.password {margin-bottom: 15px;}
+	.sign {text-decoration: none; background-color: #70d572; color: #fff; border-bottom: 2px solid #60ba62; }
+}
+// end of subscribe
+
+
+// start of login
+.login {border-bottom: 2px solid #e5e5e5; 
+	.email, .password {border-top: 2px solid #e5e5e5; background: #f4f4f4;}
+	.email {color: #59676b;  margin-bottom: 13px;}
+	.password {margin-bottom: 15px;}
+	.sign {text-decoration: none; background-color: #78c8e6; color: #fff; border-bottom: 2px solid #6eb7d2;}
+}
+// end of login
+
+
+
+// start of today 
+.today {border-bottom: 2px solid #e97e55;
+	.header {background: #e97e55;
+		.title {color: #fff;}
+	}
+}
+.date {background: #ff895b; color: #fff; padding: 14px 0 38px;
+	.day {display: block; font-size: 130px; text-align: center; height: 160px; line-height: 160px;}
+	.date_text { font-size: 18px; text-align: center;}
+}
+//end of today
+
+
+//start of social1 
+.social1 {margin-bottom: 42px;
+	.social_link {width: 80%; margin: 0 auto;}
+	.link {display: inline-block; width: 50px; height: 45px; border-radius: 5px;}
+	.link1 {background: #5e76b3 url(../images/icon/icons.png) no-repeat; border-bottom: 2px solid #485e95;}
+	.link2 {background: #dd4b39 url(../images/icon/icons.png) -58px 0 no-repeat; border-bottom: 2px solid #b93e2e;}
+	.link3 {background: #78c8e6 url(../images/icon/icons.png) -112px 0 no-repeat; border-bottom: 2px solid #6eb7d2;}
+	.link4 {background: #f26797 url(../images/icon/icons.png) -170px 0 no-repeat; border-bottom: 2px solid #d25b85;}
+}
+//end of social1
+
+
+//start of social2 
+.social2 {margin-bottom: 42px;
+	.link {display: block; height: 45px; line-height: 45px; border-radius: 5px; font-size: 16px; text-align: center; color: #fff; margin-bottom: 23px;}
+	.link1 {background: #5e76b3 url(../images/icon/icons.png) no-repeat; border-bottom: 2px solid #485e95;}
+	.link2 {background: #dd4b39 url(../images/icon/icons.png) -58px 0 no-repeat; border-bottom: 2px solid #b93e2e;}
+	.link3 {background: #78c8e6 url(../images/icon/icons.png) -112px 0 no-repeat; border-bottom: 2px solid #6eb7d2;}
+	.link4 {background: #f26797 url(../images/icon/icons.png) -170px 0 no-repeat; border-bottom: 2px solid #d25b85;}
+}
+//end of social2
