@@ -1,0 +1,70 @@
+.f_top{width:100%;height: 30px;background: #f9f9f9;}
+.f_topMain{width: 1000px;margin:0 auto;} 
+.f_topMain ul{list-style: none;} 
+.f_topMain li{float: left;font-size: 12px;height: 30px;line-height: 30px;} 
+.f_topMain li a{text-decoration: none;color: #a7a7a7;} 
+.f_topMain li a:hover{color: #f80;} 
+.f_topMain li span{padding:0 8px;color:#e9e9e9;} 
+.f_topMain .f_up{background: url(../images/up.png) no-repeat;padding-left: 22px;} 
+/*top部分 end*/
+
+
+/*head 部分 start*/
+.f_head{width:100%;height: 70px;background: #fff;border:1px solid #e0e0e0;}
+.f_headMain{width: 1000px;margin:0 auto;}
+.f_headLeft .f_logo{width: 143px;height: 36px;margin-top: 14px;}
+.f_headLeft a{text-decoration: none;}
+.f_headLeft i{width: 1px;background: #fff;border:1px solid #e9e9e9;margin: 18px;}
+.f_headLeft .f_tu{height: 70px;font-size: 22px;font-weight: bold;color:#666;}
+.f_headLeft .f_dotted{width: 6px;height: 6px;margin: 5px;}
+.f_headLeft .f_lou{font-size: 22px;font-weight: bold;color:#666;}
+.f_headLeft .f_city{font-size: 14px;color: #666;margin-left: 14px;margin-right: 4px;font-family: "Microsoft yahei"}
+.f_headLeft .f_beijing{font-size: 14px;font-weight: bolder;color: #e04040;background: url(../images/down.png) center center no-repeat;font-family: "Microsoft yahei";padding-right:44px;}
+.f_headRiht .f_seaText{width: 200px;height: 20px;border:1px solid #e0e0e0;background: url(../images/search.png) 10px center no-repeat;padding: 5px 10px 5px 5px;margin-top: 16px;outline: 0;}
+.f_headRiht .f_seacT{width: 76px;height: 30px;border:1px solid #df252d;background: url(../images/search_bg.png) no-repeat;color:#fff;font-size: 14px;font-weight: bold;margin-top: 20px;margin-left: -8px;}
+.f_warp{background: #f3f2f3;}
+.f_warpMain{width: 1000px;margin:0 auto;padding-top: 30px;}
+.f_warpTit{border-bottom:2px solid #e9e9e9;padding-bottom: 10px;margin-bottom: 10px;margin-top: 13px;box-shadow: 0 1px 2px #fff;}
+.f_warpTit .f_warpSpan{color:#434a54;font-size: 12px;}
+.f_warpTit .f_warpText{color:#e04040;font-size: 12px;font-weight: bold;text-decoration: none;}
+.f_tuji{background: #eee;font-size: 14px;color:#656d78;border:1px solid #ddd;padding:6px 0 4px 12px;text-align: center;vertical-align: middle;text-decoration: none;margin-top: -14px;}
+.f_tuji img{width: 19px;height: 19px;vertical-align: middle;padding:0 10px 0 8px;margin-bottom: 4px;text-align: center;}
+/*head 部分 end*/
+
+
+/*分页部分 start*/
+.f_pageSide{margin: 20px auto;text-align: center;}
+.f_pageSide .f_page{font-size: 14px;color:#666;padding:13px 17px;text-decoration: none;border:1px solid #ddd;text-align: center;background: #eaedf1;margin: 2px;}
+.f_page:hover{color:#fff;background: #fc6e51;}
+.f_pageSide .f_pageSpan{font-size: 14px;color:#666;padding:0 5px;}
+.f_page .f_pageTemp{color:#fff;background: #fc6e51;}
+/*分页部分 end*/
+
+
+/*页脚部分 start*/
+.f_footer{background: #fff;text-align: center;padding:20px 0;}
+.f_footer p{font-size: 12px;color:#656d78;height: 24px;line-height: 24px;}
+.f_footer a{text-decoration: none;color:#656d78;}
+.f_footer a:hover{color:#fc6e51;}
+.f_footer span{color:#cd1d9;}
+/*页脚部分 end*/
+
+
+/*瀑布流部分 start*/
+.f_conMain{width: 1000px;margin:0 auto;background: red;}
+.f_conTemp{margin-left: 15px;}
+.f_conOne{width: 238px;}
+.f_box{padding-top:8px;float: left;border:1px solid #ccc;margin-bottom: 15px;}
+.f_pic{border-radius:5px;width: 222px;padding:0 8px;margin-bottom: 15px;}
+.f_pic img{display: block;width: 222px;height: auto;}
+.f_title{width: 216px;display: block;font-size: 14px;font-weight: bolder;color:#434a54;text-decoration: none;font-family: "Microsoft yahei";padding:0 10px;}
+.f_keys{width: 216px;font-size: 12px;color:#656d78;margin:15px 0;padding:0 10px;}
+.f_keys a{font-size: 12px;color:#656d78;text-decoration: none;}
+.f_keys .f_keyA{font-size: 12px;color:#e04040;text-decoration: none;}
+.f_links{font-size: 12px;color: #aab2bd;background: #f9f9f9;padding: 5px 0 15px 10px;}
+.f_links a{color: #aab2bd;text-decoration: none;}
+.f_links span{font-family: "Tahoma";}
+
+
+/*瀑布流部分 end/
+
