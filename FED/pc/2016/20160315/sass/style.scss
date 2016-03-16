@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+body {background-color: #ffe700;}
+.header {background: url(../images/title.png) no-repeat center center; height: 660px;}
+.photo {display: block; width: 150px; margin: 0 auto; height: 150px; border-radius: 50%; background: #000; border: none; margin-bottom: 300px;}
+// .public {text-align: center; padding-bottom: 300px; font-size: 24px; 
+// 	.title {font-size: 38px; line-height: 1; margin-bottom: 24px; font-weight: 700; }
+// 	.content {line-height: 1.6;}
+// }
+.public {text-align: center; padding-bottom: 300px; font-size: 24px; 
+	.title {display: inline-block; padding: 5px 10px 1px 0; font-size: 38px; line-height: 1; margin-bottom: 24px; font-weight: 700; color: #ffe700; background: #000; }
+	.content {display: inline-block;line-height: 1.6; background: #000; color: #ffe700;}
+	.content1 {line-height: 1; font-size: 30px;}
+	em {display: inline-block; color: #ffe700; background:#000; border-radius: 50%; padding: 4px 10px; }
+	.rotateZ{transform: rotate(5deg);}
+	.rotateF{transform: rotate(-5deg);}
+=======
+.section1, .section2, .section3, .section4, .section5 {background-color: #ffe700; text-align: center;}
+.header {width: 820px; margin: 0 auto; height: 300px; background: url(../images/title.png) no-repeat;}
+
+
+// .photo {display: block; width: 150px; margin: 0 auto; height: 150px; border-radius: 50%; background: #000; border: none; margin-bottom: 300px;}
+.title {font-size: 38px; line-height: 1; margin-bottom: 24px; font-weight: 700; }
+.content {line-height: 1.6;}
+.title {display: inline-block; padding: 5px 10px 1px 0; font-size: 38px; line-height: 1; margin-bottom: 24px; font-weight: 700; color: #ffe700; background: #000; 
+	.works {text-decoration: none; color: #ffe700;}
+}
+.content {display: inline-block;line-height: 1.6; background: #000; color: #ffe700;}
+.content1 {line-height: 1; font-size: 30px;}
+em {display: inline-block; color: #ffe700; background:#000; border-radius: 50%; padding: 4px 10px; }
+.rotateZ{transform: rotate(5deg);}
+.rotateF{transform: rotate(-5deg);}
+
+.fullpage {position: fixed; top: 0; right: 0;background: #000;
+	&:before {
+		content:""; width: 0; height: 0; border: 10px solid red;
+	}
+>>>>>>> master
+}

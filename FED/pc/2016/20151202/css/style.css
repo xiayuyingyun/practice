@@ -1,0 +1,96 @@
+/* 头部logo部分 start */
+.f_heading{background: #c9111a;}
+.f_heading .f_headLogo{width: 978px;height: 66px;margin:0 auto;}
+.f_headLogo .f_logo{width: 220px;height: 60px;}
+.f_headLogo .f_logo img{background: #c9111a;width: 220px;height: 60px;}
+.f_city{float: left;color:#fff;font-size: 14px;font-weight: bold;text-decoration: none;background: #b70e17;border:1px solid #a40e16;margin-top: 22px;padding:1px 10px 1px 5px;position: relative;}
+.f_city img{margin:8px 0 0 5px;position: relative;}
+.f_city:hover .f_beijing{display: block;}
+.f_beijing{width: 300px;height: 150px;background: #eee;position: absolute;top: 28px;left:0;border:1px solid #666;border-radius: 5px;}
+.f_heading .f_sign{font-size: 14px;color:#fff;font-weight: bold;background: #960d0d;padding:6px 30px;margin-top: 18px;margin-right: 25px;text-decoration: none;border-radius: 2px;}
+/* 头部logo部分 end */
+
+
+/* 导航条 start */
+.f_headNav{background: #414040;}
+.f_headNav .f_nav{width: 978px;height: 45px;margin:0 auto;}
+.f_nav li{font-size: 16px;font-weight: bolder;}
+.f_nav a{float: left;width: 96px;color:#fff;text-align: center;margin-top: 1px;padding:10px 18px;text-decoration: none;}
+.f_nav a:hover{text-decoration: none;background: #c9111a;}
+.f_nav b{float: right;width: 1px;height: 32px;line-height: 32px;background: #535252;margin-top: 6px;margin-right: 15px;border-left: 1px solid #1f1e1f;}
+.f_nav span{float: right;color:#fff;padding:10px 0 ;}
+.f_nav span img{float: left;margin:-6px 10px 0 0;}
+/* 导航条 end */
+
+/* 主体 立即购买部分 start */
+.f_warping{width: 978px;margin:0 auto;}
+.f_warping .f_warpBuy{width: 946px;border:1px solid #d4d2d2;padding:15px 15px 30px 15px;margin-top: 20px;}
+.f_warpBuy .f_buyBanner{font-size: 22px;font-weight: bolder;color:#ee4136;border-bottom:1px dotted #a1a0a0;padding:0 0 15px 32px;}
+.f_buyBanner .f_buyButton{font-size: 16px;font-weight: bolder;color:#fff;background: #ee4136;text-decoration: none;padding:8px 40px;margin-left: 20px;border-radius:2px;vertical-align: middle;}
+.f_warpBuy .f_buyProp{font-size: 12px;color:#000;padding:10px 40px;height: 24px;line-height: 24px;}
+.f_buyProp a{font-size: 12px;color:#000;text-decoration: none;padding:0 4px;}
+.f_buyProp a span{font-size: 12px;font-weight: bold;color:#ee4136;}
+.f_buyProp .f_buyIndent{padding-left: 95px;}
+/* 主体 立即购买部分 end */
+
+
+/* 主体 联盟楼盘推荐 start */
+.f_warpRecom .f_recoTit{font-size: 20px;font-weight: bolder;color: #de2e1c;margin:10px 0;}
+.f_warpRecom .f_recomLeft{width: 303px;overflow: hidden;border:1px solid #ddd;}
+.f_warpRecom .f_recoRight{width: 673px;overflow: hidden;}
+.f_warpRecom .f_recChina{padding-left:10px;border-bottom:1px dotted #a1a0a0;}
+.f_recomLeft a{text-decoration: none;}
+.f_recoRight a{text-decoration: none;}
+.f_recomLeft .f_recImg{width: 303px;height: 227px;}
+.f_recTitle{margin-top: 5px;}
+.f_recTitle .f_recJian{color:#000;font-size: 14px;font-weight: bolder;}
+.f_recSpan{font-size: 14px; color:#666;font-weight: normal;line-height: 28px;}
+.f_recCons{font-size: 12px;color:#de2e1c;border:1px solid #de2e1c;padding:2px 4px;text-decoration: none;}
+.f_recSpan a{font-size: 14px; color:#666;font-weight: normal;text-decoration: underline;}
+.f_recSpan .f_recHot{background: url(images/Recom_hot.jpg)no-repeat;right:0;bottom:0;}
+.f_recSpan .f_recDoing{background: url(images/Recom_doing.jpg) no-repeat;right:0;bottom:0;}
+.f_recLeju{margin:15px 5px 5px 15px;}
+.f_recTit{font-size: 16px;font-weight: bold;color:#de2e1c;text-align: center;}
+.f_recTit1{margin-right: 20px;}
+.f_recUl{list-style: none;margin-top: 16px;}
+.f_recLi1{border-right:1px solid red;}
+.f_recUl li{float: left;width: 150px;text-align: center;background: #eee;}
+.f_recUl .f_recP1{font-size: 14px;color:#666;margin:14px 0;}
+.f_recUl .f_recP2{font-size: 12px;font-weight: bold;color:#de2e1c;margin:12px 0;}
+.f_recUl .f_recP3{font-size: 12px;color:#666;height: 30px;line-height: 20px;}
+.f_recP3 span{color:#de2e1c;}
+.f_recBuying{float: left;font-size: 22px;font-weight: bolder;color:#fff;background: #de2e1c;text-align: center;text-decoration: none;padding:15px 85px;margin:16px 20px;border-radius: 2px;}
+.f_recoRight ul{list-style: none;}
+.f_recoRight li{float: left;margin-left: 26px;}
+.f_recoRight li img{width: 193px;height: 146px;}
+.f_recFan{font-size: 14px;font-weight: bolder;color: #de2e1c;}
+.f_recFan1{padding:10px 2px;margin-top: 4px;margin-bottom: 10px;}
+.f_recFan a{font-size: 12px;font-weight: bold;color:#fff;background: #d22e1c;padding: 5px 10px;border-radius: 2px;margin-left: 5px;}
+.f_recTuan{font-size: 12px;color:#666;}
+
+/* 主体 联盟楼盘推荐 end */
+
+
+/*楼盘展示部分 start*/
+.f_warpProp{border:1px solid #ddd;}
+.f_warpProp h3{font-size: 18px;font-weight: bolder;color: #d22e1c;background: #eee;border-bottom:1px solid #ddd;padding: 10px 10px 8px 20px;}
+.f_warpProp h3 span{width: 124px;height: 25px;line-height: 25px;font-size: 14px;font-weight: bold;color:#fff;background: url(../images/buy_fan1210.png) no-repeat;padding:3px 12px 4px 6px;text-align: center;}
+.f_warpProp h3 a{width: 124px;height: 19px;float: right;font-size: 12px;font-weight: normal;color:#666;margin-right: 10px;}
+.f_warpProp ul{list-style: none;float: left;}
+.f_warpProp ul li{height: 35px;line-height: 35px;}
+.f_warpProp li span{color:#666;font-size: 12px;margin-left: 23px;}
+.f_warpProp li img{margin:-4px 2px;}
+.f_warpProp .f_ulBorder{border-right:1px solid #ddd;padding-right: 15px;}
+/*楼盘展示部分 end*/
+
+/*尾部 start*/
+.f_footer{text-align: center;margin:40px 0 15px 0;}
+.f_footer p{font-size: 12px;color:#666;height: 24px;}
+.f_footer a{font-size: 12px;color:#666;text-decoration: none;}
+.f_footer a:hover{font-size: 12px;color:#666;}
+/*尾部 end*/
+.tuan{color: #8eb7e5;font-size: 12px;padding:1px 4px;border:1px solid #8eb7e5;text-decoration: none;margin-right: 3px;}
+.tuan1{padding:1px 10px;}
+.f_ulBorder b{font-size: 12px;color:#000;font-weight: normal;padding-left:22px;}
+.f_guancheng{width:120px;color:#000;font-size: 12px;height: 35px;line-height: 35px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.f_warpProp li b{font-weight: normal;width:120px;color:#000;font-size: 12px;height: 35px;line-height: 35px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
