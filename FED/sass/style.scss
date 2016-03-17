@@ -1,0 +1,20 @@
+body {background: #323a45;}
+
+
+.wrap {width: 80%; margin: 0 auto; padding: 60px 0;
+	.sidebar_left, .sidebar_right{float: left; margin-top: 20px; 
+		.list {text-decoration: none; color: #fff; font-size: 28px; display: block; height: 62px; line-height: 62px; border-bottom: 1px dotted #eee; text-align: right; width: 300px; word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+			&:hover {color: #666;}
+			&:visited {color: #999;}
+		}
+		.project_title {float: left;}
+		.title {color: #fff; font-size: 44px;}
+		.tips {float: right; font-size: 14px; font-weight: 400;color: #ddd; border: 1px solid #fff; padding: 0 10px; border-radius: 5px; margin-top: 5px;}
+	}
+	.sidebar_left {margin-right: 10%;}
+	.sidebar_right{}
+
+}
+@media screen {max-width: 600px;
+	.tips {display: none;}
+}
