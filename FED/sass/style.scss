@@ -1,8 +1,8 @@
 body {background: #323a45;}
 
 
-.wrap {width: 80%; margin: 0 auto; padding: 60px 0;
-	.sidebar_left, .sidebar_right{float: left; margin-top: 20px; 
+.wrap {width: 80%; margin: 0 auto; 
+	.sidebar_left, .sidebar_right{float: left; margin-bottom: 100px;
 		.list {text-decoration: none; color: #fff; font-size: 16px; display: block; height: 62px; line-height: 62px; border-bottom: 1px dotted #eee; text-align: right; width: 100%; word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
 			&:hover {color: #666;}
 			&:visited {color: #999;}
