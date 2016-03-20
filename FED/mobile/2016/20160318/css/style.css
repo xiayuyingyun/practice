@@ -1,16 +1,18 @@
 @charset "UTF-8";
 
 /*公共部分*/
-body{min-width:3rem;max-width:6.4rem;margin:0 auto}
+body{margin:0 auto; background-color: #f5f5f5;}
 /*公共部分*/
 
 
 /*页面头部banner与搜索*/
-.page_head {position: relative;}
-.header_banner{position:relative}
-.banner_focus {position: absolute; left: 0; right: 0; bottom: 10px; background: #000;}
-.header_banner .head_banner{position:absolute;top:0;right:0;left:0;display:inline-block}
-.header_banner .head_ban img{display:block;overflow:hidden;width:100%}
+.page_head {position: relative; background: #fff; overflow: hidden;}
+.page_head, .header_banner{}
+.banner_focus {position: absolute; left: 0; right: 0; bottom: 8px; width: 100%; height: 10px; line-height: 4px; text-align: center;}
+.banner_focus .focus_btn {display: inline-block; width: 6px; height: 6px; border: 1px solid #fff; border-radius: 50%;}
+.banner_focus .cur {background: #fff;}
+.header_banner .head_banner{float: left;}
+.header_banner .head_ban img{display:block;overflow:hidden;width:100%; height: 100%;}
 .wrap {position: relative;}
 .wrap .search_box {position: fixed; top: 0; right: 0; left: 0; height: 40px; line-height: 40px; z-index: 999; padding: 0 10px;}
 .search_box .search_jd_logo{display: inline-block;}
@@ -26,3 +28,25 @@ background-size: 200px 200px;}
 .search .search_text {position: absolute; top: 0; left: 0; right: 0; padding: 2px 10px 2px 20px; font-size: 12px; height: 30px; line-height: 30px;}
 
 /*页面头部banner与搜索*/
+
+
+/*主导航*/
+.jd_nav {width: 100%; padding: 12px 10px; background-color: #fff;}
+.jd_nav .nav{float: left; width: 25%; text-align: center; font-size: 12px; color: #666; text-decoration: none; padding-bottom: 11px;}
+.jd_nav .nav img {width: 40px; height: 40px;}
+.jd_nav .nav span {display: block; text-align: center;}
+/*主导航*/
+
+
+/*主题内容*/
+.jd_content {background: #fff;}
+/*主题内容*/
+
+
+/*掌上秒杀*/
+.boy_now .buy_now_wrap{overflow: hidden;}
+.buy_now_icon, .buy_now_tit, .buy_new_time, .buy_new_more {}
+.buy_now_wrap .buy_now_icon{display: inline-block; overflow: hidden;}
+.buy_now_wrap .buy_now_tit{display: inline-block;font-size: 15px; color: #ca1327; }
+.buy_now_wrap .buy_new_time{display: inline-block; font-size: 15px; color: #ca1327; }
+/*掌上秒杀*/
