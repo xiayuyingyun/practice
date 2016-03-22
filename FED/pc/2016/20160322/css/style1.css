@@ -1,0 +1,46 @@
+body {background: #f1eee9;}
+.container {width: 920px; margin: 20px auto; padding: 56px; box-shadow: 1px 2px 6px 2px rgba(0,0,0,0.3); background: #fff;}
+.content_left {float: left; width: 480px;  margin-right: 60px;}
+.content_right {float: left; padding-top: 20px;}
+.content_left .my_photo {margin-bottom: 10px;}
+.my_photo .photo{float: left; width: 200px; height: 200px; overflow: hidden; border: 8px solid #ffc000; border-radius: 50%;}
+.photo  img {width: 200px; height: 200px; overflow: hidden;}
+.my_name {font-size: 42px; font-weight: 700; font-family: " Microsoft YaHei";}
+.my_job {font-size: 14px; text-indent: 2em;}
+.module {margin-bottom: 50px;}
+.menu_title {font-size: 26px; font-family: "Microsofe YaHei"; padding-left: 20px; position: relative; height: 30px; line-height: 30px; margin-bottom: 10px;}
+.menu_title:before {content: ""; display: inline-block; position: absolute; top: 0; left: 0;  width: 14px; height: 30px; background: url(../images/title_icon.png) no-repeat;}
+.text {line-height: 26px;  color: #767171;}
+.mb36 {margin-bottom: 36px;}
+.mb66 {margin-bottom: 66px;}
+.company {font-weight: 700; color: #767171; display: flex; display: -webkit-flex; display: box;}
+.company .company_name {flex: 1.5;}
+.company .company_post {flex: 2.5;}
+.text em {color: #767171; font-weight: 700;}
+.text span {color: #ffc000; font-weight: 700;}
+.company {font-weight: 700;}
+.company .company_name {display: inline-block;}
+.company .company_post { display: inline-block;}
+.expr_cont {position: relative; border-left: 2px solid #ffc000; padding-left: 22px; margin-left: 24px; padding-bottom: 12px;}
+.expr_cont:nth-last-child(1) { border-left-color: #f2f2f2;}
+.expr_cont:before {content: ""; position: absolute; top: 0; left: -12px; width: 20px; height: 20px; display: inline-block; background: #ffc000; border-radius: 50%;}
+
+.list {color: #767171;}
+.list .list_con {position: relative; padding-left: 20px; height: 26px; line-height: 26px;}
+.list .list_con:before {content: ""; width: 10px; height: 10px; display: inline-block; position: absolute; top: 7px; left: 0; background: #FFC000; border-radius: 50%;}
+.company_name1 {font-weight: 700; margin-top: 30px; margin-bottom: 5px;}
+.company_name, .company_post {font-weight: 700;}
+.contact_way {position: relative;}
+.contact_way span {position: absolute; top: 0; left: 0;height: 3px; background: #000;}
+
+.mt20 {margin-top: 20px;}
+
+
+.layout {padding-top: 6px;}
+.module .text a {text-decoration: none; color: #ffc000;}
+.module .text a:hover {color: #767171;}
+.module .text em {font-weight: 400;}
+/*.pt20 {padding-top: 20px;}*/
+.pt14 {padding-top: 14px;}
+
+
