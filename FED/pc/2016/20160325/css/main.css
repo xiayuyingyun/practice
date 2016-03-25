@@ -1,0 +1,175 @@
+body {background: #292548;}
+.box {width: 405px; height: 368px; position: absolute; bottom: 0; background: #292548;}
+.flask_throat {width: 64px; height: 155px; position: absolute; top: 0; left: 152px; overflow: hidden; background: pink;}
+.flask_throat_one {width: 150px; height: 60px; background-color: #37acdd; position: absolute; transform: rotate(20deg); left: -20px; top: -1px; animation: flask_throat_one 5s infinite; -webkit-animation: flask_throat_one 5s infinite;}
+.flask_throat_two {width: 150px; height: 20px; position: absolute; transform: rotate(20deg); background-color: #6c49ac; top: 60px; left: -20px;animation: flask_throat_two 5s infinite; -webkit-animation: flask_throat_two 5s infinite;}
+.flask_throat_three {width: 150px; height: 50px; background-color : #5c30ae; position: absolute; transform: rotate(20deg); top: 82px; left: -20px; animation: flask_throat_three 5s infinite; -webkit-animation: flask_throat_three 5s infinite;}
+.flask_throat_four {width: 150px; height: 72px; background: #5c30ae; position: absolute; bottom: 0; animation: flask_throat_four 5s infinite; -webkit-animation: flask_throat_four 5s infinite;}
+
+
+.flask_bottom {position: absolute; bottom: 0; background: #292548;}
+.big_triangle {width: 368px; height: 250px; background-color: #fff; position: relative; overflow: hidden;}
+.big_triangle:before {content: ""; display: block; width: 0; height: 0; border-top: 250px solid #292548; border-right: 152px solid transparent; position: absolute; top: 0; left: 0; z-index: 100;}
+.big_triangle:after {content: ""; display: block; width: 0; height: 0; border-top: 250px solid #292548; border-left: 152px solid transparent; position: absolute; top: 0; right: 0; z-index: 100;}
+.flask_bottom_one {width: 100%; height: 50px; position: absolute; top: -6px; transform: rotate(-12deg); background: #5c30ae; z-index: 9; animation: flask_bottom_one 5s infinite; -webkit-animation: flask_bottom_one 5s infinite;}
+.flask_bottom_two {width: 100%; height: 218px; position: absolute; bottom: 94px; left: 64px; transform: rotate(24deg); background-color: #1493c8; z-index: 8;animation: flask_bottom_two 5s infinite; -webkit-animation: flask_bottom_two 5s infinite;}
+.flask_bottom_three {width: 100%; height: 170px; position: absolute; bottom: 0; right: 0; z-index: 1; background-color: #37acdd; animation: flask_bottom_three 5s infinite; -webkit-animation: flask_bottom_three 5s infinite;}
+.flask_bottom_four {width: 0; height: 0; position: absolute; left: 0; bottom: 0; z-index: 2; border-bottom: 154px solid #4266c0; border-left: 92px solid transparent; border-right: 208px solid transparent; }
+.flask_bottom_five {width: 100%; height: 76px; background-color: #4248c0; transform: rotate(24deg);position: absolute; bottom: 0; right: 64px; z-index: 3; right:64px; animation: flask_bottom_five 5s infinite; -webkit-animation: flask_bottom_five 5s infinite;}
+.flask_bottom_six {width: 0; height: 0; border-bottom: 42px solid #3a2481; border-left:22px solid transparent; border-right: 90px solid  transparent;position: absolute; bottom: 0; z-index: 4;}
+
+
+/* 水瓶颜色渐变 */
+@-webkit-keyframes flask_throat_one
+{
+	0% {background-color: #37acdd;}
+	25% {background-color: #37d8dd;}
+	50% {background-color: #37ddb5;}
+	75% {background-color: #37d8dd;}
+}
+@keyframes flask_throat_one
+{
+	0% {background-color: #37acdd;}
+	25% {background-color: #37d8dd;}
+	50% {background-color: #37ddb5;}
+	75% {background-color: #37d8dd;}
+}
+@-webkit-keyframes flask_throat_two
+{
+	0% {background-color: #6c49ac;}
+	25% {background-color: #5249ac;}
+	50% {background-color: #495aac;}
+	75% {background-color: #495aac;}
+}
+@keyframes flask_throat_two
+{
+	0% {background-color: #6c49ac;}
+	25% {background-color: #5249ac;}
+	50% {background-color: #495aac;}
+	75% {background-color: #495aac;}
+}
+@-webkit-keyframes flask_throat_three
+{
+	0% {background-color: #5c30ae;}
+	25% {background-color: #3a30ae;}
+	50% {background-color: #3048ae;}
+	75% {background-color: #3a30ae;}
+}
+@keyframes flask_throat_three
+{
+	0% {background-color: #5c30ae;}
+	25% {background-color: #3a30ae;}
+	50% {background-color: #3048ae;}
+	75% {background-color: #3a30ae;}
+}
+@-webkit-keyframes flask_throat_four
+{
+	0% {background-color: #5c30ae;}
+	25% {background-color: #3a30ae;}
+	50% {background-color: #3048ae;}
+	75% {background-color: #3a30ae;}
+}
+@keyframes flask_throat_four
+{
+	0% {background-color: #5c30ae;}
+	25% {background-color: #3a30ae;}
+	50% {background-color: #3048ae;}
+	75% {background-color: #3a30ae;}
+}
+@-webkit-keyframes flask_bottom_one
+{
+	0% {background-color: #5c30ae;}
+	25% {background-color: #3a30ae;}
+	50% {background-color: #3048ae;}
+	75% {background-color: #3a30ae;}
+}
+@keyframes flask_bottom_one
+{
+	0% {background-color: #5c30ae;}
+	25% {background-color: #3a30ae;}
+	50% {background-color: #3048ae;}
+	75% {background-color: #3a30ae;}
+}
+@-webkit-keyframes flask_bottom_two
+{
+	0% {background-color: #1493c8;}
+	25% {background-color: ##1493c8;}
+	50% {background-color: #14c89d;}
+	75% {background-color: #14c2c8;}
+}
+@keyframes flask_bottom_two
+{
+	0% {background-color: #1493c8;}
+	25% {background-color: ##1493c8;}
+	50% {background-color: #14c89d;}
+	75% {background-color: #14c2c8;}
+}
+
+@-webkit-keyframes flask_bottom_three
+{
+	0% {background-color: #37acdd;}
+	25% {background-color: #37d8dd;}
+	50% {background-color: #37ddb5;}
+	75% {background-color: #37d8dd;}
+}
+@keyframes flask_bottom_three
+{
+	0% {background-color: #37acdd;}
+	25% {background-color: #37d8dd;}
+	50% {background-color: #37ddb5;}
+	75% {background-color: #37d8dd;}
+}
+
+@-webkit-keyframes flask_bottom_five
+{
+	0% {background-color: #4248c0;}
+	25% {background-color: #4269c0;}
+	50% {background-color: #428ac0;}
+	75% {background-color: #4269c0;}
+}
+@keyframes flask_bottom_five
+{
+	0% {background-color: #4248c0;}
+	25% {background-color: #4269c0;}
+	50% {background-color: #428ac0;}
+	75% {background-color: #4269c0;}
+}
+/* 水瓶颜色渐变 */
+
+
+
+
+
+/* 气泡动画 */
+.circle {border: 1px solid #fff; border-radius: 50%; background-color: #292548; position: absolute;}
+	.circle_one {width: 20px; height: 20px; animation: circle_one 4s .3s infinite; top: 50px; left: 40%;}
+	.circle_two {width: 5px; height: 5px; animation: small_circle 4s .3s infinite; top: 80px; left: 45%;}
+	.circle_three {width: 10px; height: 10px; animation: circle_two 4s .3s infinite; top: 30px; left: 45%;}
+	.circle_four {width: 5px; height: 5px; animation: circle_two 4s .3s infinite; top: 10px; left: 43%;}
+	.circle_five {width: 45px; height: 45px; animation: circle_one 4s .3s infinite; top: 50px; left: 40%;}
+
+
+	@-webkit-keyframes circle_one {
+		0% {opacity: 1; -webkit-transform: translateZ(0px) translateY(20px) scale(1); transform: translateZ(0px) translateY(20px) scale(1);}
+		85% {opacity: 0;}
+		100% {transform: translateZ(0px) translateY(-200px) scale(0); -webkit-transform: translateZ(0px) translateY(-200px) scale(0); opacity: 0;}
+	}
+
+	@keyframes circle_one {
+		0% {opacity: 1; -webkit-transform: translateZ(0px) translateY(20px) scale(1); transform: translateZ(0px) translateY(20px) scale(1);}
+		85% {opacity: 0;}
+		100% {transform: translateZ(0px) translateY(-200px) scale(0); -webkit-transform: translateZ(0px) translateY(-200px) scale(0); opacity: 0;}
+	}
+
+	@-webkit-keyframes circle_two {
+		0% {opacity: 1; -webkit-transform: translateZ(0px) translateY(20px) scale(1); transform: translateZ(0px) translateY(20px) scale(1);}
+		85% {opacity: 0;}
+		100% {transform: translateZ(0px) translateY(-200px) scale(0); -webkit-transform: translateZ(0px) translateY(-200px) scale(0); opacity: 0;}
+	}
+
+	@keyframes circle_two {
+		0% {opacity: 1; -webkit-transform: translateZ(0px) translateY(50px) scale(1); transform: translateZ(0px) translateY(20px) scale(1);}
+		85% {opacity: 0;}
+		100% {transform: translateZ(0px) translateY(-200px) scale(0); -webkit-transform: translateZ(0px) translateY(-200px) scale(0); opacity: 0;}
+	}
+	/* 气泡动画 */
