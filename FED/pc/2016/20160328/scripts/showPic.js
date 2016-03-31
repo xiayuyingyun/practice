@@ -5,6 +5,7 @@ function showPic (whichpic) {
 	var text = whichpic.getAttribute("title");
 	var description = document.getElementById("description");
 	description.firstChild.nodeValue = text;
+	//获取p元素里的第一个文本节点
 }
 
 
@@ -13,3 +14,4 @@ function countBodyChildren() {
 	// alert (body_element.nodeType);
 }
 window.onload = countBodyChildren;
+//页面加载是执行
