@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>AJAX是如何工作的</title>
+	<script src="//cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
+</head>
+<body>
+	<button id="btn">发送一个ajax请求</button>
+	<div id="box"></div>
+</body>
+<script>
+	$("#btn").click(function(){
+		// $.get('demo1.php',{'username':'科学家'},function(data){
+		// 	$("#box").html(data);
+		// });
+		$.ajax({
+			'url':'demo1.php',
+			'data':{'username':'科学家','age':18},
+			'success':function(data){
+				$("#box").html(data);
+			},
+			'dataType':'html',
+			'type':'post',
+		});
+	});
+	
+	// $.post();,
+	// $.ajax();
+</script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>javascript 图片库</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+	<h1>javascript 图片库</h1>
+	<ul>
+		<li>
+			<a href="javascript:;" onclick="showPic(this);" title="桃花盛开的季节 1" data-img="images/1.jpg">桃花盛开的季节 1</a>
+		</li>
+		<li>
+			<a href="javascript:;" title="桃花盛开的季节2" onclick="showPic(this);"  data-img="images/2.jpg">桃花盛开的季节2</a>
+		</li>
+		<li>
+			<a href="javascript:;" title="桃花盛开的季节3" onclick="showPic(this);"  data-img="images/3.jpg">桃花盛开的季节3</a>
+		</li>
+		<li>
+			<a href="javascript:;" title="桃花盛开的季节4" onclick="showPic(this);"  data-img="images/4.jpg">桃花盛开的季节4</a>
+		</li>
+		<!-- onclick = "showPic(this); return fasle;" 
+		防止用户被带到目标链接窗口
+		-->
+	</ul>
+	<img src="images/4.jpg" alt="" id="placeholder" alt="my image gallery">
+	<p id="description">Choose an image</p>
+
+	<script src="scripts/showPic.js"></script>
+</body>
+</html>
