@@ -3,7 +3,7 @@ body {background: #f1eee9;}
 .content_left {float: left; width: 480px;  margin-right: 60px;}
 .content_right {float: left; padding-top: 20px;}
 .content_left .my_photo {margin-bottom: 10px;}
-.my_photo .photo{float: left; width: 200px; height: 200px; overflow: hidden; border: 8px solid #ffc000; border-radius: 50%;}
+.my_photo .photo{float: left; width: 200px; height: 200px; overflow: hidden; border: 8px solid #ffc000; border-radius: 50%; margin-right: 40px;}
 .photo  img {width: 200px; height: 200px; overflow: hidden;}
 .my_name {font-size: 42px; font-weight: 700; font-family: " Microsoft YaHei";}
 .my_job {font-size: 14px; text-indent: 2em;}
