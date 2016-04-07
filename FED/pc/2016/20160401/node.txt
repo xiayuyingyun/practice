@@ -1,0 +1,1 @@
+nodeValue  没有定义 想去abbr中的本文 可以用innerhtml

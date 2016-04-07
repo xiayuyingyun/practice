@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>abbr</title>
+	<link rel="stylesheet" href="css/typography.css">
+</head>
+<body>
+	<h1>What is the Document Object Model?</h1>
+	<p>
+		The <abbr title="World wide Web Consortium">W3C</abbr> defines the <abbr title="Document Object Model">DOM</abbr> as:
+	</p>
+	<blockquote cite="http://www.w3.org/DOM">
+		<p>
+			A platform- and language-neutral interface that will allow programs add scripts to dynamically access add update the content, structure and style of document.
+		</p>
+	</blockquote>
+	<p>
+		It ia an <abbr title="Application programming Interface">API</abbr>
+		that can be used to navigate <abbr title="HyperText Markup Language"></abbr>documents.
+	</p>
+	<!-- 顺序关系：先加载addLoadEvent.js，不然displayAbbreviations.js不能调用addLoadEvent.js -->
+	<script src="scripts/addLoadEvent.js"></script>
+	<script src="scripts/displayAbbreviations.js"></script>
+</body>
+</html>

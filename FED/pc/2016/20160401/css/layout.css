@@ -1,0 +1,39 @@
+body {
+	color: #333;
+	background-color: #ccc;
+	margin: 1em 10%;
+}
+
+h1 {
+	color: #333;
+}
+
+a {
+	color: #c60;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+li{
+	float: left;
+	padding: 1em;
+	line-style: none;
+}
+
+img {
+	display: block;
+	clear: both;
+}
+
+li {
+	float: left;
+}
+
+li a img {
+	display: inline-block;
+	border: 0;
+	width: 30px;
+	height: 30px;
+}
+
+
