@@ -1,12 +1,23 @@
 ;
-//列表页逻辑业务
 (function() {
+	//列表页逻辑业务
 	if (!document.getElementById("wrap")) {
 		return false;
 	}
 	//获取相关元素
-	var todayTime = document.getElementById('time');
-	var monthDay = document.getElementById('date');
+	var todayTime = document.querySelector("#time");
+	var monthDay = document.querySelector("#date");
+	var conTime = document.querySelector('#conTime');
+	var conShare = document.querySelector('#conShare');
+	var conHangUp = document.querySelector('#conHangUp');
+	var conPic = document.querySelector('#conPic');
+	var videoTele = document.querySelector('#videoTele');
+	var maskLayer = document.querySelector('#maskLayer');
+	var maskWeixin =document.querySelector('#maskWeixin');
+	var maskPeopleDaily = document.querySelector('#maskPeopleDaily');
+	var wrap = document.querySelector('#wrap');
+	var list = document.querySelector('#list');
+	var conOthers = document.querySelector('.conOthers');
 
 	//获取当前的时间并实时显示
 	(function startTime() {
@@ -28,44 +39,46 @@
 		var day = today.getDate();
 		monthDay.innerHTML = month + 1 + "月" + day + "日";
 	})();
-})()
 
+	// 点击列表元素，进入到视频通话页面
+	list.addEventListener("click",function(e) {
+		var e = event || window.event;
+		 e.stopPropagation();
+		if(getParents(e.target, "A")){
+			wrap.classList.add('none');
+			facetime.classList.remove('none');
+		}
+	});
 
+	function getParents(obj, eleName) {
+		while(obj) {
+			if(obj.nodeName = eleName) return true;
+			obj.parentNode.nodeName !== eleName;
+			obj = obj.parentNode;
+		}
+	}
 
-
-// 视频通话页逻辑业务 
-;(function() {
-	//获取元素
-	var conTime = document.getElementById('conTime');
-	var conShare = document.getElementById('conShare');
-	var conHangUp = document.getElementById('conHangUp');
-	var conPic = document.getElementById('conPic');
-	var videoTele = document.getElementById('videoTele');
-	var maskLayer = document.getElementById('maskLayer');
-	var maskWeixin =document.getElementById('maskWeixin');
-	var maskPeopleDaily = document.getElementById('maskPeopleDaily');
-
-	// var inTime;	
+	// 视频通话页逻辑业务
 	//通话时间计时
 	function startTele() {
-		var s = m = h = 0;
+		var ss = mm = hh = 0;
 		var inTime = setInterval(function() {
 			var str= '';
-			if (s < 60) {
-				s++;
+			if (ss < 60) {
+				ss++;
 			} else {
-				if (m < 60) {
-					m++;
+				if (mm < 60) {
+					mm++;
 				} else {
-					h++;
-					m = 0;
+					hh++;
+					mm = 0;
 				}
-				s = 0;
+				ss = 0;
 			}
 			//当时、分、秒小于10时，给其前面加0
-			str += (h == 0) ? h = '' : ((h < 10) ? '0' + h + ':' : h + ':');
-			str += (m < 10) ? '0' + m + ':' : m + ':';
-			str += (s < 10) ? '0' + s : s;
+			str += (hh == 0) ? hh = '' : ((hh < 10) ? '0' + hh + ':' : hh + ':');
+			str += (mm < 10) ? '0' + mm + ':' : mm + ':';
+			str += (ss < 10) ? '0' + ss : ss;
 			conTime.innerHTML = str;
 		},1000)
 	}
@@ -76,18 +89,15 @@
 			this.classList.add('conHangDown');
 			conTime.classList.remove('none');
 			this.innerHTML = '挂断';
-
 			setTimeout(function(){
-				conPic.classList.add('none');
 				startTele();
 			}, 1000);
 			
 			
 		} else {
 			this.classList.remove('conHangDown');
-			this.classList.add('none');
 			conTime.classList.add('none');
-			conPic.classList.remove('none');
+			this.innerHTML = '接通';
 		}
 	}
 
@@ -104,15 +114,14 @@
 		}
 	}
 
+	// 点击打给别人跳转到列表页
+	conOthers.onclick = function() {
+		facetime.classList.add('none');
+		wrap.classList.remove('none');
+	}
+
+	maskLayer.addEventListener('click', function(){
+		this.classList.add('none')
+	})
 
 })()
-
-
-// function is_weixin(){
-//     var ua = navigator.userAgent.toLowerCase();
-//     if(ua.match(/MicroMessenger/i)=="micromessenger") {
-//         return true;
-//      } else {
-//         return false;
-//     }
-// }
