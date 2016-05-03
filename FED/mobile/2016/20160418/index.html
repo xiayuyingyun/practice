@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>地方首页</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+<body>
+	<section class="wrap">
+		<header class="head">
+			<div class="addr_subs">
+				<h1 class="addr">北京</h1>
+				<h2 class="subscribe">订阅量: <span class="subsNumber">23431</span></h2>
+			</div>
+			<a href="#" class="return"></a>
+			<a href="#" class="setting"></a>
+		</header>
+		<div class="slide" id="slide">
+		    <ul>
+		        <li>
+		            <a href="#">
+		                <img src="image/temp/banner1.jpg" alt="">
+		            </a>
+		            <div class="mask_title">
+
+		            </div>
+		            <h2 class="banner_title"><span>1</span>/4  西宁团委重走丝绸之路活动成功举办</h2>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <img src="image/temp/banner2.jpg" alt="">
+		            </a>
+		            <div class="mask_title">
+
+		            </div>
+		            <h2 class="banner_title"><span>2</span>/4  团委重走丝绸之路活动成功举办</h2>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <img src="image/temp/banner3.png" alt="">
+		            </a>
+		            <div class="mask_title">
+
+		            </div>
+		            <h2 class="banner_title"><span>3</span>/4  重走丝绸之路活动成功举办</h2>
+		        </li>
+		        <li>
+		            <a href="#">
+		                <img src="image/temp/banner4.png" alt="">
+		            </a>
+		            <div class="mask_title">
+
+		            </div>
+		            <h2 class="banner_title"><span>4</span>/4  活动成功举办</h2>
+		        </li>
+		    </ul>
+		    <div class="dot">
+		            <span class="cur"></span>
+		            <span class=""></span>
+		            <span class=""></span>
+		            <span class=""></span>
+		        </div>
+		</div>
+		<!-- 热点新闻 -->
+		<section class="hot_news">
+			<a href="#" class="hot_img">
+				<img src="image/temp/1.png" alt="" class="hot_image">
+			</a>
+			<img src="image/icons/round.png" alt="圆点分割线" class="round">
+			<div class="hot_content">
+				<h2 class="hot_title">陈奕迅2016年全国巡回演唱会——三里屯工体站</h2>
+				<div class="comments">
+					<span class="performance">展演</span>
+					<span class="comm_number">455456</span>
+				</div>
+			</div>
+			<img src="image/icons/circle.png" alt="" class="circle">
+		</section>
+		<!-- 热点新闻 -->
+
+		<!-- 菜单 -->
+		<section class="menu">
+			<div class="menu_logo">
+				<a href="#" class=" icon icon1"></a>
+				<h2 class="menu_name">投票</h2>
+			</div>
+			<div class="menu_logo">
+				<a href="#" class="icon icon2"></a>
+				<h2 class="menu_name">征集</h2>
+			</div>
+			<div class="menu_logo">
+				<a href="#" class="icon icon3"></a>
+				<h2 class="menu_name">报名</h2>
+			</div>
+			<div class="menu_logo">
+				<a href="#" class="icon icon4"></a>
+				<h2 class="menu_name">展演</h2>
+			</div>
+			<div class="menu_logo">
+				<a href="#" class="icon icon5"></a>
+				<h2 class="menu_name">捐赠</h2>
+			</div>
+			<div class="menu_logo">
+				<a href="#" class="icon icon6"></a>
+				<h2 class="menu_name">精选</h2>
+			</div>
+		</section>
+	</section>
+	<!-- 菜单 -->
+
+	<!-- 轮播图插件 -->
+	<script src="js/zepto.min.js"></script>
+	<script src="js/swipeSlide.min.js"></script>
+	<script>
+	$(function(){
+	    $('#slide').swipeSlide({
+	        continuousScroll:true,
+	        speed : 1000,
+	        transitionType : 'cubic-bezier(0.22, 0.69, 0.72, 0.88)',
+	        firstCallback : function(i,sum,me){
+	            me.find('.dot').children().first().addClass('cur');
+	        },
+	        callback : function(i,sum,me){
+	            me.find('.dot').children().eq(i).addClass('cur').siblings().removeClass('cur');
+	        }
+	    });
+	});
+	</script>
+</body>
+</html>
