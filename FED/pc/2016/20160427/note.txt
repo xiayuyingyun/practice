@@ -1,0 +1,12 @@
+首页 ： http://localhost:3000/
+详情页： http://localhost:3000/detail/id
+后台录入页：http://localhost:3000/admin/new
+后台列表页：http://localhost:3000/list
+
+
+
+》》启动数据库 mongod -dbpath "E:\moogodb\data\db"
+
+》》安装插件  cnpm install
+
+》》node app.js

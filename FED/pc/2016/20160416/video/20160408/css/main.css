@@ -1,0 +1,282 @@
+html {
+    height: 100 % ;
+    width: 100 % ;
+    font - family: 'Heiti SC',
+    'Microsoft YaHei';
+    font - size: 100px;
+    outline: 0; - webkit - text - size - adjust: none;
+}
+body {
+    height: 100 % ;
+    margin: 0; - webkit - user - select: none;
+    position: relative;
+}
+
+/*锁屏列表页 S*/
+
+/*锁屏列表页结构布局*/
+.wrap {
+    height: 100%;
+    background: url(../images/bg---Assistor.png) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.wrap .timeTitle {
+    flex: 0.5;
+}
+.wrap .content {
+    flex: 1;
+    position: relative;
+}
+.wrap .content:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    right: 5px;
+    width: 75px;
+    height: 14px;
+    background: url(../images/logo---Assistor.png) no-repeat;
+    -webkit-background-size: 75px 14px;
+    background-size: 75px 14px;
+}
+.wrap .slideUnlock {
+    height: 46px;
+    line-height: 46px;
+}
+
+/*时间标题*/
+.wrap .timeTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap .timeTitle .boxMiddle{
+    flex: 1;
+    text-align: center;
+    color: #fff;
+}
+.timeTitle .boxMiddle .time{
+    font-size: 50px;
+    border: bold;
+}
+.timeTitle .boxMiddle .title{
+    font-size: 14px;
+    border: bold;
+}
+.boxMiddle .title .date {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+/*列表*/
+.content {
+    flex:1;
+    display: flex;
+}
+.content .list {
+    overflow-y:auto;
+    margin: 0 3px;
+    flex:1;
+    align-items:stretch;
+
+}
+.content .list .listTitle {
+    line-height: 1em;
+    background: rgba(0,0,0, .6);
+    border-bottom: 1px solid rgba(255,255,255, .5);
+}
+.content .list .listLink{
+    display: flex;
+    padding: 10px 0 15px 10px;
+    text-decoration: none;
+}
+.list .listLink .listWeixin{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-right: 11px;
+}
+.list .listLink .listText{
+    flex: 1;
+}
+.list .listLink .peopleLink{
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+.listLink .peopleLink .titlePeople{
+    font-size: 8px;
+    color: #999;
+    margin-left: 10px;
+}
+.list .listLink .missedCalls{
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+.list .listLink .clickLink{
+    font-size: 8px;
+    color: #999;
+}
+.list .listLink .listBigPeople{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #d0d0d0;
+    background: red;
+    margin-right: 14px;
+
+}
+.wrap .slideUnlock {
+    height: 46px;
+    line-height: 46px;
+}
+/*滑动解锁*/
+.slideUnlock .slide{
+    display: block;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+}
+.slideUnlock .slide:after{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    line-height: 46px;
+    margin-left: 5px;
+    margin-bottom: -1px;
+    background: url(../images/enter---Assistor.png) no-repeat;
+    -webkit-background-size: 8px 12px;
+    background-size: 8px 12px;
+}
+/*锁屏列表页 E*/
+
+
+
+
+
+
+
+
+/*视频通话页面 S*/
+.facetime {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*分享引导*/
+.maskLayer {
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+}
+.maskLayer .mask {
+    position: absolute;
+    z-index: 30;
+}
+.maskLayer .maskWeixin {
+    top: 30px;
+    right: 30px;
+    width: 146.67px;
+    height: 100px;
+}
+.maskLayer .maskPeopleDaily {
+    bottom: 30px;
+    right: 30px;
+    width: 138px;
+    height: 119px;
+}
+
+/*通话主题内容--按钮*/
+.facetime .conText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 18px;
+    text-align: center;
+}
+.facetime .conButton {
+    display: flex;
+    padding: 0 50px;
+    margin-top: 24px;
+}
+.conText .conTime {
+    color: #fff;
+}
+.conText .conButton .conBtn {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.conText .conButton .conBtn:before {
+    content: "";
+    display: block;
+    width: 54px;
+    margin: 0 auto;
+    height: 54px;
+    margin-bottom: 11px;
+}
+.conText .conButton .conShare:before {
+    background: url(../images/sheair---Assistor.png) no-repeat;
+    -webkit-background-size: 54px 54px;
+    background-size: 54px 54px;
+}
+.conText .conButton .conHangUp:before {
+    background: url(../images/tel_green---Assistor.png) no-repeat;
+    -webkit-background-size: 54px 54px;
+    background-size: 54px 54px;
+}
+.conText .conButton .conHangDown:before {
+    background: url(../images/gd---Assistor.png) no-repeat;
+    -webkit-background-size: 54px 54px;
+    background-size: 54px 54px;
+}
+.conText .conButton .conOthers:before {
+    background: url(../images/tel.png) no-repeat;
+    -webkit-background-size: 54px 54px;
+    background-size: 54px 54px;
+}
+
+/*视频之前的照片及渐变遮罩*/
+.conVideo {
+    height: 100%;
+    position: relative;
+}
+
+.conVideo:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-image: -webkit-linear-gradient( 90deg, rgba(0, 0, 0, 1) 0%, rgba(173, 172, 172, 0) 100%);
+    /*background-color: #f80;*/
+}
+.conVideo .conPic {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.conVideo .videoTele{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: url()"" no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/*视频通话页面 E*/

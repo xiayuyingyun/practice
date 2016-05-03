@@ -44,10 +44,6 @@
 	list.addEventListener("click",function(e) {
 		var e = event || window.event;
 		 e.stopPropagation();
-<<<<<<< HEAD
-=======
-		 console.log("2")
->>>>>>> master
 		if(getParents(e.target, "A")){
 			wrap.classList.add('none');
 			facetime.classList.remove('none');
@@ -93,27 +89,15 @@
 			this.classList.add('conHangDown');
 			conTime.classList.remove('none');
 			this.innerHTML = '挂断';
-<<<<<<< HEAD
 			setTimeout(function(){
-=======
-
-			setTimeout(function(){
-				conPic.classList.add('none');
->>>>>>> master
 				startTele();
 			}, 1000);
 			
 			
 		} else {
 			this.classList.remove('conHangDown');
-<<<<<<< HEAD
 			conTime.classList.add('none');
 			this.innerHTML = '接通';
-=======
-			this.classList.add('none');
-			conTime.classList.add('none');
-			conPic.classList.remove('none');
->>>>>>> master
 		}
 	}
 
@@ -136,11 +120,8 @@
 		wrap.classList.remove('none');
 	}
 
-<<<<<<< HEAD
 	maskLayer.addEventListener('click', function(){
 		this.classList.add('none')
 	})
 
-=======
->>>>>>> master
 })()
